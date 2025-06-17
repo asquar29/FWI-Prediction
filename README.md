@@ -2,7 +2,7 @@
 A machine learning-based approach to predict the Fire Weather Index (FWI), a crucial metric used to assess wildfire risk. Built as part of my academic and AI/ML club engagement, this project reflects my passion for combining chemical engineering knowledge with data science to solve real-world environmental challenges.
 
 🧠 Motivation
-As a Chemical Engineering undergraduate at NIT Agartala with active involvement in the DSAI (AI/ML) Club, I aimed to apply data-driven techniques to a socially relevant problem — wildfire prediction. This project showcases how domain knowledge, when fused with machine learning, can yield impactful solutions.
+As a Chemical Engineering undergraduate at NIT Agartala with active involvement in the technical Clubs, I aimed to apply data-driven techniques to a socially relevant problem — wildfire prediction. This project showcases how domain knowledge, when fused with machine learning, can yield impactful solutions.
 
 📌 Project Highlights
 Cleaned and preprocessed historical weather datasets.
@@ -55,11 +55,11 @@ Launch the notebook:
 Open FWI_Prediction.ipynb in Jupyter or your preferred IDE.
 
 📈 Results
-Best Model: CatBoost Regressor
+Best Model: RidgeCV Regressor
 
-RMSE: e.g., 325
+MAE: e.g., Mean Absolute Error:  0.5158
 
-R² Score: e.g., 0.87
+R² Score: e.g., R2 score:  0.9879
 
 Model performance indicates promising predictive capability for wildfire risk assessment.
 
